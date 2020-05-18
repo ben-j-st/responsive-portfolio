@@ -1,0 +1,16 @@
+body {
+    background-color: orange;
+}
+
+.carousel-inner {
+    background-color: white;
+    height: 500px;
+}
+
+.carousel-control-prev {
+   
+    color: black;
+    opacity: 1;
+
+}
+
