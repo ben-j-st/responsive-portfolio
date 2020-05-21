@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
-#bio-image {
+#portfolio-image {
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
