@@ -1,16 +1,8 @@
 body {
-    background-color: orange;
+    background-color: grey;
+    color: white;
 }
 
-.carousel-inner {
-    background-color: white;
-    height: 500px;
+#bio-image {
+    text-align: center;
 }
-
-.carousel-control-prev {
-   
-    color: black;
-    opacity: 1;
-
-}
-
