@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+#about-me-text {
+    display: flex;
+    align-items: center;
+}
+
 p {
     text-align: center;
 }
