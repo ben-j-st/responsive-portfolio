@@ -101,3 +101,12 @@ footer p {
 #submit-btn {
     margin-bottom: 20px;
 }
+
+.portfolio-img {
+    padding:20px;
+}
+
+#portfolio-container {
+    text-align:center;
+    margin-left: auto;
+}

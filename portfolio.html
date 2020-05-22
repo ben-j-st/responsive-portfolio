@@ -8,12 +8,66 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-  
 
+    <!-- header -->
+  <header>
+    
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-row">
+      <a class="navbar-brand" href="#">Ben's Portfolio</a>
+      
+      <!-- toggler for changing text links to drop down links -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        <!-- code for links in navbar -->
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="portfolio-img.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+
+  </header>
+
+
+
+    <!-- main area for content -->
+    <main class="container" id="background">
+
+        <h1>Portfolio</h1>
+    
+        <hr>
+        <!-- <section class="gallery" id="image-box"> -->
+        <section class="container col-auto" id="portfolio-container">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+            <img class="portfolio-img" src="Images/1.jpeg" alt="">
+        
+        <!-- </section> -->
+        </section>
+    </main>
+
+
+    <!-- footer goes here -->
+  <footer class="sticky-bottom">
+    <img id="linked-in" src="/Images/linkedin.png" href="#" alt="Linked In">
+    <p>
+      &copy; Copyright 2020
+    </p>
+    <img id="github" src="/Images/github.png" href="#" alt="Github">
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
