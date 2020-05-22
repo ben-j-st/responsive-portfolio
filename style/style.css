@@ -66,6 +66,10 @@ footer p {
     padding-top:10px;
 }
 
+footer a {
+    color:white;
+}
+
 #linked-in {
     height:30px;
     margin: 10px;
@@ -74,7 +78,7 @@ footer p {
 
 #github {
     height:30px;
-    margin-left:10px; 
+    margin:10px; 
 }
 
 /* Contanct Page CSS */
@@ -114,11 +118,6 @@ footer p {
     text-decoration: none;
 }
 
-.carousel-caption {
-    display:inline flex;
-    justify-content: center;
-}
-
 .portfolio-img {
     border: groove;
     height: 200px;
@@ -134,3 +133,4 @@ a.link, a.visited {
     text-decoration: none;
     border: groove;
 }
+
