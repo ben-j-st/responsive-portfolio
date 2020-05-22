@@ -1,7 +1,43 @@
 body {
-    background-color: grey;
-    color: white;
+    background-image: url("../Images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+#background {
+    background-color:white;
+    margin-top: 20px;
+    border: inset 2px;
+}
+#brand-background {
+    background-color: #164958;
+}
+
+h1, h2 {
+    color:#27809B
+}
+a {
+    color:black;
+}
+
+hr {
+    border: 1px solid #164958;
+
+}
+#nav-row {
+    border-bottom:1px solid #164958
+}
+
+/* @media (min-width: 580px) {
+    #brand-background {
+    max-width:175px;    
+    }
+
+    #link-container {
+        max-width: 400px;
+    }
+} */
+
+
 
 #portfolio-image {
     text-align: center;
@@ -14,4 +50,16 @@ body {
 
 p {
     text-align: center;
+}
+
+footer {
+    margin-top:20px;
+    padding:20px;
+    bottom:0;
+    width:100%;
+    position:sticky;
+    text-align: center;
+    border-top: 5px solid #27809B;
+    background-color:#164958;
+    color: white;
 }
