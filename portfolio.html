@@ -14,29 +14,31 @@
 <body>
 
     <!-- header -->
-  <header>
-    
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-row">
-      <a class="navbar-brand" href="#">Ben's Portfolio</a>
-      
-      <!-- toggler for changing text links to drop down links -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <header>
 
-        <!-- code for links in navbar -->
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">About Me <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
-        </div>
-      </div>
-    </nav>
-    <!-- end of nav -->
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-row">
+            <a class="navbar-brand" href="#">Ben's Portfolio</a>
 
-  </header>
+            <!-- toggler for changing text links to drop down links -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <!-- code for links in navbar -->
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About Me <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </nav>
+        <!-- end of nav -->
+
+    </header>
 
 
 
@@ -44,33 +46,49 @@
     <main class="container" id="background">
 
         <h1>Portfolio</h1>
-    
+
+        <hr>
+        
+        <h6>Click on any of the portfolio images to go to its corresponding website</h6>
+
         <hr>
 
-       
+
         <!-- section for responsive images -->
-        <section class="container col-auto" id="portfolio-container">
-            <img class="portfolio-img" src="Images/floats-exercise.jpg" alt="">
-            <img class="portfolio-img" src="Images/postion-exercise.jpg" alt="">
-            <img class="portfolio-img" src="Images/refactor-exercise.jpg" alt="">
-            <img class="portfolio-img" src="Images/1.jpeg" alt="">
-            <img class="portfolio-img" src="Images/1.jpeg" alt="">
-            <img class="portfolio-img" src="Images/1.jpeg" alt="">
-            <img class="portfolio-img" src="Images/1.jpeg" alt="">
-            <img class="portfolio-img" src="Images/1.jpeg" alt="">
-      
-        </section>
+        <container class="container col-auto" id="portfolio-container">
+            <!-- image 2 -->
+            <a href="https://ben-j-st.github.io/floats-example/"><img class="portfolio-img" 
+                src="Images/floats-exercise.jpg" alt=""></a>
+            <!--  image 2 -->
+            <a href="https://ben-j-st.github.io/positions-exercise/"><img class="portfolio-img" 
+                src="Images/postion-exercise.jpg" alt=""></a>
+            <!-- image 3 -->
+            <a href="https://ben-j-st.github.io/code-refactor/"><img class="portfolio-img"
+                    src="Images/refactor-exercise.jpg" alt="refactor code example"></a>
+            <!-- image 4 -->
+            <a href="#"><img class="portfolio-img" 
+                src="Images/1.jpeg" alt=""></a>
+            <!-- image 5 -->
+            <a href="#"><img class="portfolio-img" 
+                src="Images/1.jpeg" alt=""></a>
+            <!-- image 6 -->
+            <a href="#"><img class="portfolio-img" 
+                src="Images/1.jpeg" alt=""></a>
+
+
+            </container>
     </main>
 
 
     <!-- footer goes here -->
-  <footer class="sticky-bottom">
-    <img id="linked-in" src="/Images/linkedin.png" href="https://www.linkedin.com/in/ben-stephens-3a19181a8/" alt="Linked In">
-    <p>
-      &copy; Copyright 2020
-    </p>
-    <img id="github" src="/Images/github.png" href="https://github.com/ben-j-st" alt="Github">
-  </footer>
+    <footer class="sticky-bottom">
+        <img id="linked-in" src="/Images/linkedin.png" href="https://www.linkedin.com/in/ben-stephens-3a19181a8/"
+            alt="Linked In">
+        <p>
+            &copy; Copyright 2020
+        </p>
+        <img id="github" src="/Images/github.png" href="https://github.com/ben-j-st" alt="Github">
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

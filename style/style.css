@@ -12,7 +12,7 @@ body {
     background-color: #164958;
 }
 
-h1, h2 {
+h1, h2, h6 {
     color:#27809B
 }
 
@@ -20,6 +20,7 @@ h1 {
     padding-left: 10px;
     padding-top: 10px;;
 }
+
 a {
     color:black;
 }
@@ -109,6 +110,10 @@ footer p {
     display:inline flex;
 }
 
+#portfolio-container a {
+    text-decoration: none;
+}
+
 .carousel-caption {
     display:inline flex;
     justify-content: center;
@@ -116,7 +121,16 @@ footer p {
 
 .portfolio-img {
     border: groove;
-    height:200px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     margin: 20px;
+}
+
+h6 {
+    text-align: center;
+}
+
+a.link, a.visited {
+    text-decoration: none;
+    border: groove;
 }
