@@ -1,7 +1,5 @@
 body {
-    background-image: url("../Images/background-img.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url(../Images/ignasi_pattern_s.png);
 }
 #background {
     background-color:white;
@@ -15,29 +13,25 @@ body {
 h1, h2 {
     color:#27809B
 }
+
+h1 {
+    padding-left: 10px;
+    padding-top: 10px;;
+}
 a {
     color:black;
 }
 
 hr {
-    border: 1px solid #164958;
+    background-color: #164958;
+    border: inset 1px;
 
 }
 #nav-row {
-    border-bottom:1px solid #164958
+    background-color:#164958;
+    border-bottom: 2px solid #27809B;
+    color:white;
 }
-
-/* @media (min-width: 580px) {
-    #brand-background {
-    max-width:175px;    
-    }
-
-    #link-container {
-        max-width: 400px;
-    }
-} */
-
-
 
 #portfolio-image {
     text-align: center;
@@ -54,7 +48,7 @@ p {
 
 footer {
     margin-top:20px;
-    padding:20px;
+    padding:10px;
     bottom:0;
     width:100%;
     position:sticky;
