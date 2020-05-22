@@ -1,11 +1,13 @@
 body {
     background-image: url(../Images/ignasi_pattern_s.png);
+    background-size: auto;
 }
 #background {
     background-color:white;
     margin-top: 20px;
-    border: inset 2px;
+    border: groove 2px;
 }
+
 #brand-background {
     background-color: #164958;
 }
@@ -48,12 +50,54 @@ p {
 
 footer {
     margin-top:20px;
-    padding:10px;
     bottom:0;
     width:100%;
     position:sticky;
-    text-align: center;
     border-top: 5px solid #27809B;
     background-color:#164958;
     color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer p {
+    padding-top:10px;
+}
+
+#linked-in {
+    height:30px;
+    margin: 10px;
+
+}
+
+#github {
+    height:30px;
+    margin-left:10px; 
+}
+
+/* Contanct Page CSS */
+
+#background-contact {
+    background-color:white;
+    margin-top: 20px;
+}
+
+#name-row {
+    padding-top: 20px;
+}
+
+#email-row {
+    margin-top: 20px;
+}
+#text-box {
+    padding-top:20px;
+}
+
+#Textarea1 {
+    resize:none;
+}
+
+#submit-btn {
+    margin-bottom: 20px;
 }
