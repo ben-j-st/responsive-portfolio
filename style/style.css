@@ -1,17 +1,24 @@
+/* Css For All Pages */
+
 body {
     background-image: url(../Images/ignasi_pattern_s.png);
     background-size: auto;
 }
+
 #background {
     background-color:white;
     margin-top: 20px;
     border: groove 2px;
 }
 
-#brand-background {
-    background-color: #164958;
+/* Changing the color of the navigation bar */
+#nav-row {
+    background-color:#164958;
+    border-bottom: 2px solid #27809B;
+    color:white;
 }
 
+/* CSS for Headings */
 h1, h2, h6 {
     color:#27809B
 }
@@ -21,34 +28,17 @@ h1 {
     padding-top: 10px;;
 }
 
-a {
-    color:black;
-}
-
+/* CSS for Horizontal line Break to create a line effect */
 hr {
     background-color: #164958;
-    border: inset 1px;
-
-}
-#nav-row {
-    background-color:#164958;
-    border-bottom: 2px solid #27809B;
-    color:white;
-}
-
-#portfolio-image {
-    text-align: center;
-}
-
-#about-me-text {
-    display: flex;
-    align-items: center;
+    border: inset 1px;   
 }
 
 p {
     text-align: center;
 }
 
+/* Css for the footer section */
 footer {
     margin-top:20px;
     bottom:0;
@@ -70,6 +60,12 @@ footer a {
     color:white;
 }
 
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* changing linked in and github images to fit in footer */
 #linked-in {
     height:30px;
     margin: 10px;
@@ -81,7 +77,20 @@ footer a {
     margin:10px; 
 }
 
-/* Contanct Page CSS */
+/* CSS for Index.html */
+
+/* aligning the image to the center of its column */
+#portfolio-image {
+    text-align: center;
+}
+
+/* changing the container to a flex model. so i cam align to the center of the container */
+#about-me-text {
+    display: flex;
+    align-items: center;
+}
+
+/* Contact Page CSS */
 
 #background-contact {
     background-color:white;
@@ -107,6 +116,7 @@ footer a {
     margin-bottom: 20px;
 }
 
+/* Css for portfolio page */
 
 #portfolio-container {
     text-align:center;
@@ -114,12 +124,8 @@ footer a {
     display:inline flex;
 }
 
-#portfolio-container a {
-    text-decoration: none;
-}
-
 .portfolio-img {
-    border: groove;
+    border: 1px solid black;
     height: 200px;
     width: 300px;
     margin: 20px;
@@ -127,10 +133,5 @@ footer a {
 
 h6 {
     text-align: center;
-}
-
-a.link, a.visited {
-    text-decoration: none;
-    border: groove;
 }
 
