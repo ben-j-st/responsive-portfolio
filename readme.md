@@ -2,7 +2,7 @@
 
 ## Description
 
-Moving into week 2 of the monash bootcamp full stack web development course we were given the challenge of creating a responsive website utilising bootstrap, media queries and css to style everything into a nice complete website that both functions and looks appealing.  Starting out a little unfamiliar with bootstrap and the complexities that happen from utilising code that is not entirely your own were quickly apparent. This leads nicely into the next section.
+Moving into week 2 of the Monash Bootcamp full stack web development course we were given the challenge of creating a responsive website utilising bootstrap, media queries and css to style everything into a nice complete website that both functions and looks appealing.  Starting out a little unfamiliar with bootstrap and the complexities that happen from utilising code that is not entirely your own were quickly apparent. This leads nicely into the next section.
 
 ## Difficulties 
 
