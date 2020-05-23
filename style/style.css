@@ -80,10 +80,14 @@ footer a:hover {
 /* CSS for Index.html */
 
 /* aligning the image to the center of its column */
-#portfolio-image {
+#portfolio-container {
     text-align: center;
-    align-items: center;
     margin-bottom: 10px;
+}
+
+#port-img {
+    height:300px;
+    width: 200px;
 }
 
 /* changing the container to a flex model. so i cam align to the center of the container */
