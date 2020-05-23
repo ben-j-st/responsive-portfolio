@@ -1,7 +1,7 @@
 /* Css For All Pages */
 
 body {
-    background-image: url(Images/ignasi_pattern_s.jpg);
+    background-image: url(../Images/ignasi_pattern_s.jpg);
     background-size: auto;
 }
 
@@ -82,6 +82,7 @@ footer a:hover {
 /* aligning the image to the center of its column */
 #portfolio-image {
     text-align: center;
+    align-items: center;
     margin-bottom: 10px;
 }
 
