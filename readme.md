@@ -27,6 +27,6 @@ portfolio.html  features 6 img’s current 3 of projects ive worked on and 3 pla
 
 ## Website Preview 
  
- ![Website preview](/Images/preview-portfolio.jpg)
+ ![Website preview](Images/preview-portfolio.jpg)
 
 https://ben-j-st.github.io/responsive-portfolio/
